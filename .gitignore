@@ -1,0 +1,30 @@
+# Genera el .gitignore para el proyecto python-agent
+
+# Quitar todos los archivos no necesarios
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+*.pyzwz 
+
+__pycache__
+.venv
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+bin/
+include/
+lib/
+lib64/
+local/
+share/
+
+*.zip
+
+
